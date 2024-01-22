@@ -1,0 +1,39 @@
+let classes = 10;
+// let attended = 7; //prompt //dom
+// let classes = prompt("Enter Total Number of classes");
+// let attended = prompt("Enter number of classes attended"); //prompt //dom
+
+// let cal = (attended/classes);
+let cal = 0.74;
+// console.log(cal);
+let n = 1;
+let sum = 0;
+while (n==1) {
+    if (cal >= 0.75) {
+        console.log("Your attendance is already greater than equal to 75%");
+        n = 2;
+        break;
+    }
+    else{
+        console.log("Correct hai");
+        // attended++;
+        // classes++;
+        // cal = (attended/classes);
+        // sum+=1; 
+    }
+}
+console.log("Number of days: ",sum);
+
+
+
+// console.log(cal);
+
+
+
+// let calc = 0.74;
+// if (calc >= .75) {
+//     console.log("Value is greater than 75");
+// }
+// else {
+//     console.log("value is less than 75");
+// }
